@@ -13,8 +13,8 @@ jobs:
       uses: burnett01/rsync-deployments@7.0.1
       with:
         switches: -avzr --delete
-        path: ./src
-        remote_path: /var/www/html
+        path: ./src/
+        remote_path: ~/website
         remote_host: redouane.site
         remote_user: ${{ secrets.USERNAME }}
         remote_key: ${{ secrets.PRIVATE_KEY }}
