@@ -1,0 +1,12 @@
+body {
+  width: 35em;
+  margin: 4em auto;
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 4em;
+    width: auto;
+  }
+}
