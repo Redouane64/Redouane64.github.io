@@ -9,19 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-
-    - name: Create directory
-      run: mkdir dist
- 
-    - name: Move files to directory
-      run: mv index.html style.css main.js dist/
-
     - name: rsync deployments
       uses: burnett01/rsync-deployments@7.0.1
       with:
         switches: -avzr --delete
-        path: ./dist/
-        remote_path: /home/ubuntu/www
+        path: ./src
+        remote_path: /var/www/html
         remote_host: redouane.site
         remote_user: ${{ secrets.USERNAME }}
         remote_key: ${{ secrets.PRIVATE_KEY }}
