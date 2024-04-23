@@ -10,22 +10,14 @@ body {
 }
 
 header {
-  flex: 1;
-  align-content: center;
-}
-
-header h1 {
-  margin-bottom: 0;
-}
-
-header p {
-  margin-top: 0;
+  flex: 1 1 60%;
+  align-content: space-evenly;
 }
 
 .image {
-  flex: 0 0 30%;
-  max-width: 30%;
-  max-height: 30%;
+  flex: 1 1 30%;
+  max-width: 192px;
+  max-height: 192px;
   order: 0;
   border-radius: 50%;
 }
@@ -34,6 +26,21 @@ section {
   margin-top: 8px;
 }
 
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  a {
+    text-decoration: none;
+    margin: .5em;
+  }
+}
+
+/* icons */
+.icon {
+  height: 32px;
+  width: 32px;
+}
 
 @media only screen and (max-width: 600px) {
   body {
