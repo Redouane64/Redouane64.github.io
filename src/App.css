@@ -113,3 +113,9 @@ footer {
     display: none;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  .social img {
+    filter: invert(1);
+  }
+}
