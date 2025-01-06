@@ -88,16 +88,14 @@ footer {
   footer {
     display: none;
   }
-
-  .social {
-    display: none;
-  }
 }
+
 
 .social {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  align-items: center;
 
   a {
     text-decoration: none;
@@ -107,5 +105,11 @@ footer {
   .icon {
     height: 32px;
     width: 32px;
+  }
+}
+
+@media print {
+  .social {
+    display: none;
   }
 }
