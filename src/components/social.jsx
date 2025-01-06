@@ -13,6 +13,9 @@ export default function Social() {
       <a href="https://twitter.com/__redouane" target="_blank">
         <img className="icon" src="/x-twitter.svg" />
       </a>
+      <a href="mailto:redouane.sobaihi0@gmail.com" target="_blank">
+        <img className="icon" src="/email.svg" />
+      </a>
     </section>
   </>
 }
