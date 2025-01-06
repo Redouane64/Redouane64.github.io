@@ -58,14 +58,14 @@ header {
   padding: 0.2rem 0.8rem;
   margin: 0.2rem;
   border-radius: 1rem;
-  background-color: var(--bg-color);
-  color: var(--fg-color);
+  background-color: var(--fg-color);
+  color: var(--bg-color);
 }
 
 @media (prefers-color-scheme: dark) {
   .tech-list span {
-    background-color: var(--dark-bg-color);
-    color: var(--dark-fg-color);
+    background-color: var(--dark-fg-color);
+    color: var(--dark-bg-color);
   }
 }
 
@@ -73,14 +73,23 @@ footer {
   margin-top: auto;
   padding: 1rem;
   text-align: center;
-  background-color: #f8f9fa;
   width: 100%;
   position: sticky;
   bottom: 0;
 }
 
+@media (prefers-color-scheme: dark) {
+  .footer {
+    color: var(--dark-fg-color);
+  }
+}
+
 @media print {
   footer {
+    display: none;
+  }
+
+  .social {
     display: none;
   }
 }
@@ -89,6 +98,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+
   a {
     text-decoration: none;
     margin: .5em;

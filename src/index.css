@@ -1,9 +1,9 @@
 :root {
-  --fg-color: rgba(255, 255, 255, 0.87);
-  --bg-color: #242424;
+  --fg-color: #242424;
+  --bg-color: #fff;
 
-  --dark-fg-color: #213547;
-  --dark-bg-color: #ffffff;
+  --dark-fg-color: #fff;
+  --dark-bg-color: #242424;
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -27,7 +27,7 @@ body {
   min-height: 100vh;
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
     color: var(--dark-fg-color);
     background-color: var(--dark-bg-color);
