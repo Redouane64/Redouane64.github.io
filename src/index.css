@@ -1,0 +1,41 @@
+:root {
+  --fg-color: rgba(255, 255, 255, 0.87);
+  --bg-color: #242424;
+
+  --dark-fg-color: #213547;
+  --dark-bg-color: #ffffff;
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--fg-color);
+  background-color: var(--bg-color);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: var(--dark-fg-color);
+    background-color: var(--dark-bg-color);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  :root {
+    font-size: 14px;
+  }
+}
