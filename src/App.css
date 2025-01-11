@@ -48,6 +48,11 @@ header {
   }
 }
 
+.bio {
+  line-height: 2rem;
+  text-wrap-style: balance;
+}
+
 .tech {
   text-transform: capitalize;
   font-style: italic;
