@@ -27,10 +27,19 @@ body {
   min-height: 100vh;
 }
 
+
+a {
+  color: #02002f;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     color: var(--dark-fg-color);
     background-color: var(--dark-bg-color);
+  }
+
+  a {
+    color: #ceca00;
   }
 }
 
