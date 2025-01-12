@@ -74,15 +74,6 @@ header {
   }
 }
 
-footer {
-  margin-top: auto;
-  padding: 1rem;
-  text-align: center;
-  width: 100%;
-  position: sticky;
-  bottom: 0;
-}
-
 @media (prefers-color-scheme: dark) {
   .footer {
     color: var(--dark-fg-color);
@@ -130,4 +121,20 @@ footer {
   .social img {
     filter: invert(1);
   }
+}
+
+.project-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h4 {
+    margin: 0;
+  }
+
+  margin-bottom: 0.25rem;
+}
+
+.project-description {
+  margin: 0;
 }

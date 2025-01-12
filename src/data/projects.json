@@ -1,0 +1,6 @@
+{
+  "Socket.IO .NET Client": {
+    "description": "An attempt for fun to implement Socket.IO protocol using .NET",
+    "url": "https://github.com/Redouane64/SocketIO.NET.Client"
+  }
+}

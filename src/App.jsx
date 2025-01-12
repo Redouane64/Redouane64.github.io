@@ -2,7 +2,9 @@ import './App.css'
 import { About } from './components/about'
 import Footer from './components/footer'
 import { Header } from './components/header'
+import ListProjects from './components/project'
 import Social from './components/social'
+
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
       <main>
         <Social />
         <About />
+        <ListProjects />
       </main>
       <Footer />
     </>
