@@ -11,7 +11,7 @@ export function About() {
     'TypeORM',
     'EntityFramework',
     'REST-ful API',
-    'PostgreSql',
+    'PostgreSQL',
     'SQL Server',
     'SQL',
     'MySQL',
