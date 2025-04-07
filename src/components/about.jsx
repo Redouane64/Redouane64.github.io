@@ -10,6 +10,7 @@ export function About() {
     'ExpressJS',
     'TypeORM',
     'EntityFramework',
+    'GraphQL',
     'REST-ful API',
     'PostgreSQL',
     'SQL Server',
